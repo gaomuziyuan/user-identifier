@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "8LM5SRIjl0OAN+jFraKQAJgMn/r0wI1eN+1azff561g=",
+  "Source": "UserIdentifierService",
+  "BasePath": "_content/UserIdentifierService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UserIdentifierService/wwwroot",
+      "Source": "UserIdentifierService",
+      "ContentRoot": "/Users/mavrick/Documents/development/C#/UserIdentifierService/wwwroot/",
+      "BasePath": "_content/UserIdentifierService",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/mavrick/Documents/development/C#/UserIdentifierService/wwwroot/index.html",
+      "SourceId": "UserIdentifierService",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mavrick/Documents/development/C#/UserIdentifierService/wwwroot/",
+      "BasePath": "_content/UserIdentifierService",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}

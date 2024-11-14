@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/mavrick/Documents/development/C#/UserIdentifierService/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.UserIdentifierService.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.UserIdentifierService.props",
+      "PackagePath": "build\\UserIdentifierService.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.UserIdentifierService.props",
+      "PackagePath": "buildMultiTargeting\\UserIdentifierService.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.UserIdentifierService.props",
+      "PackagePath": "buildTransitive\\UserIdentifierService.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
