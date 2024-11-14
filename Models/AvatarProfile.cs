@@ -2,5 +2,5 @@ namespace UserIdentifierService.Models;
 
 public class AvatarProfile
 {
-    public string Url { get; set; }
+    public string? Url { get; set; }
 }

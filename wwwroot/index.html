@@ -38,11 +38,19 @@
 
 <script type="text/javascript">
     async function onButtonClick() {
-        const userIdentifier = document.getElementById('userIdentifierInput').value;
-        // 📃 To do: Get avatar URI from back end
+        let userIdentifier = document.getElementById('userIdentifierInput').value.trim();
+        if (!userIdentifier) {
+            alert("User identifier cannot be empty or whitespace.");
+            return;
+        }
         const avatarUrl = 'https://api.dicebear.com/8.x/pixel-art/png?seed=default&size=150';
         try {
-            const response = await fetch(`/avatar?userIdentifier=${userIdentifier}`);
+            const response = await fetch(`/avatar?userIdentifier=${encodeURIComponent(userIdentifier)}`);
+            if (!response.ok) {
+                console.error(`HTTP error! Status: ${response.status}`);
+                alert("Failed to fetch avatar. Please try again.");
+                return;
+            }
             const responseBody = await response.json();
             document.getElementById('userAvatarImage').src = responseBody.url;
         } catch (error) {

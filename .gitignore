@@ -1,0 +1,7 @@
+.idea/
+# Build folders
+bin/
+obj/
+
+# SQLite database
+data.db

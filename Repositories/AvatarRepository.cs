@@ -21,6 +21,6 @@ public class AvatarRepository
         command.Parameters.AddWithValue("@id", id);
 
         var result = command.ExecuteScalar();
-        return result?.ToString();
+        return result?.ToString()?? "https://api.dicebear.com/8.x/pixel-art/png?seed=default&size=150";
     }
 }

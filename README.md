@@ -37,4 +37,14 @@ UserProfileService
 │   └── AvatarService.cs             # Business logic for selecting avatar URL
 ├── appsettings.json                 # Configuration for database and logging
 ├── appsettings.Development.json     # Development-specific settings
-└── Program.cs                       # Entry point of the application
+└── Program.cs                      # Entry point of the application
+
+### Database Initialization
+
+To set up the SQLite database, run the following commands:
+
+1. Open a terminal and navigate to the project directory.
+2. Open the SQLite command line and run the initialization script:
+
+   ```bash
+   sqlite3 data.db < init.sql

@@ -18,7 +18,7 @@ public class AvatarController : ControllerBase
     }
 
     [HttpGet(Name = "GetUserProfileImage")]
-    public ActionResult<AvatarProfile> GetUserProfileImage([FromQuery] string userIdentifier)
+    public async Task<ActionResult<AvatarProfile>> GetUserProfileImage([FromQuery] string userIdentifier)
     {
         if (string.IsNullOrEmpty(userIdentifier))
         {
@@ -26,7 +26,7 @@ public class AvatarController : ControllerBase
             return BadRequest("User identifier is required.");
         }
 
-        var avatar = _service.GetAvatarUrl(userIdentifier);
+        var avatar = await _service.GetAvatarUrlAsync(userIdentifier);
         _logger.LogInformation("Generated image URL: {ImageUrl}", avatar.Url);
 
         return Ok(avatar);

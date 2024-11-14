@@ -1,6 +1,7 @@
 /Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/appsettings.Development.json
 /Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/appsettings.json
 /Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/global.json
+/Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/UserIdentifierService.staticwebassets.runtime.json
 /Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/UserIdentifierService
 /Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/UserIdentifierService.deps.json
 /Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/UserIdentifierService.runtimeconfig.json
@@ -12,9 +13,6 @@
 /Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
 /Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/SQLitePCLRaw.core.dll
 /Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll
-/Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
-/Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/runtimes/browser-wasm/nativeassets/net7.0/e_sqlite3.a
 /Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/runtimes/linux-arm/native/libe_sqlite3.so
 /Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/runtimes/linux-arm64/native/libe_sqlite3.so
@@ -57,4 +55,3 @@
 /Users/mavrick/Documents/development/C#/UserIdentifierService/obj/Debug/net7.0/UserIdentifierService.pdb
 /Users/mavrick/Documents/development/C#/UserIdentifierService/obj/Debug/net7.0/UserIdentifierService.genruntimeconfig.cache
 /Users/mavrick/Documents/development/C#/UserIdentifierService/obj/Debug/net7.0/ref/UserIdentifierService.dll
-/Users/mavrick/Documents/development/C#/UserIdentifierService/bin/Debug/net7.0/UserIdentifierService.staticwebassets.runtime.json
